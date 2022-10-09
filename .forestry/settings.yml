@@ -5,31 +5,31 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
-  path: content/portfolio
-  label: Portfolio
+  path: content/start
+  label: Start
   create: none
   match: "*"
 - type: directory
-  path: content/blog
-  label: Post
+  path: content/expertise
+  label: Expertise
   create: documents
   match: "*"
   templates:
   - post
 - type: directory
   path: content/about
-  label: About
+  label: About Svep
   create: none
   match: "*"
 - type: directory
-  path: data
-  label: Data
-  create: documents
+  path: content/workatsvep
+  label: Work at Svep
+  create: none
   match: "*"
   new_doc_ext: yml
 - type: directory
   path: content/contact
-  label: Contact
+  label: Contact Us
   create: none
   match: "*"
 - type: document
